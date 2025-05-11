@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internal Revenue Services</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+header {
+  background-color: #002E69;
+  color: white;
+  padding: 1rem 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 1.5rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.btn-primary {
+  background-color: #002E69;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #002E69;
+}
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  background-color: #f1f3f5;
+}
+.box {
+  background: white;
+  border: 1px solid #dee2e6;
+  padding: 1.5rem;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: translateY(-4px);
+}
+.box h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+footer {
+  text-align: center;
+  background-color: #002E69;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+  img{
+    width: 75px;
+  }
+
+  div#title{
+    display: flex;
+  }
+  div#h_left{
+    float: left;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="title">
+      <div id="h_left">
+        <img src="irs.jpg">
+      </div>
+      <div id="h_right">
+          <b>I</b>nternal<br>
+          &nbsp<b>R</b>evenue<br>
+          &nbsp&nbsp<b>S</b>ervice
+      </div>
+      <div id="r_nav">
+        <nav>
+          <br>
+          <ul>
+               <li><a href="index.html">Strona Główna</a></li>
+               <li><a href="info.html">Ogłoszenia</a></li>
+               <li><a href="law.html">Prawo Finansowe</a></li>
+               <li><a href="codex.html">Kodeks Finansowy</a></li>
+               <li><a href="forms.html">Formularze</a></li>
+               <li><a href="citizen.html">Dla Obywatela</a></li>
+               <li><a href="personel.html">Kontakt</a></li>
+               <li><a href="rekrutacja.html">Rekrutacja</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Pomaganie ludziom w zrozumieniu i wypełnianiu ich obowiązków podatkowych.</h1>
+    </section>
+
+    <section class="info-boxes">
+      <div class="box">
+        <h2>Rekrutacja</h2>
+        <p>Więcej informacji w kategorii Rekrutacja</p>
+      </div>
+      <div class="box">
+        <h2>Ostatnia Aktualizacja Strony</h2>
+        <p>11.05.2025 | 12:00</p>
+      </div>
+      <!-- <div class="box">
+        <h2>Kontakt z Urzędem</h2>
+        <p>Skontaktuj się z nami przez formularz online.</p>
+      </div> -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Internal Revenue Service - Los Santos</p>
+  </footer>
+</body>
+</html>
